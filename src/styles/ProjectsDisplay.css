@@ -1,0 +1,35 @@
+.project {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .project h1 {
+    margin-top: 2rem;
+    color: #3e497a;
+    font-size: 2rem;
+  }
+  .project img {
+    width: 15rem;
+    border-radius: 1rem;
+  }
+  
+  .project p{
+    font-size: 1.5rem;
+    color: #3e497a;
+    margin: 1rem 2rem;
+  }
+  
+  .icons {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .project .icons svg {
+    font-size: 2rem;
+    color: #3e497a;
+  }
