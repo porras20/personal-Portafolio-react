@@ -14,8 +14,8 @@ export default function ProjectDisplay() {
         <img src={project.image} alt="" />
         <p><b>Skills: </b>{project.skills}</p>
         <div className='icons'>
-          <GitHub/>
-          <RemoveRedEye/> 
+        <a href={project.repositorio} target='_black'><GitHub/></a>
+        <a href={project.demo} target='__black'><RemoveRedEye/></a>     
         </div>
     </div>
   )
