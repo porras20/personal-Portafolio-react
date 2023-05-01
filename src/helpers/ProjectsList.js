@@ -3,6 +3,7 @@ import Proj2 from '../assets/dashboard.jpg'
 import Proj3 from '../assets/unplash.jpg'
 import Proj4 from '../assets/cotizadorcripto.jpg'
 import Proj5 from '../assets/juegodememoria.jpg'
+import Proj6 from '../assets/app-exercises.jpg'
 
 
 
@@ -13,6 +14,13 @@ export const projectList = [
         skills: 'Material UI, React js',
         demo: 'https://fanciful-pika-4fee91.netlify.app/',
         repositorio: 'https://github.com/porras20/youtube-clone',
+    },
+    {
+        name :'App de ejercicios',
+        image: Proj6,
+        skills: 'Material UI, React js',
+        demo: 'https://6450089f54203d12d59b3422--precious-hotteok-602861.netlify.app/',
+        repositorio: 'https://github.com/porras20/personal-Portafolio-react'
     },
     {
         name: 'User DashBoard',
