@@ -66,19 +66,15 @@
   .list span {
     font-size: 1rem;
   }
-  .frontend_skills {
-    display: flex;
-    gap: 0 2rem;
-  }
   .frontend_skills svg{
     font-size: 4rem;
+    margin: 0 1rem;
   }
 
   @media only screen and (max-width: 730px) {
     .about h2 {
       font-size: 3rem;
     }
-  
     .about .prompt {
       margin-top: 0.5rem;
       font-size: 1rem;

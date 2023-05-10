@@ -4,10 +4,18 @@ import Proj3 from '../assets/unplash.jpg'
 import Proj4 from '../assets/cotizadorcripto.jpg'
 import Proj5 from '../assets/juegodememoria.jpg'
 import Proj6 from '../assets/app-exercises.jpg'
-
+import Proj7 from '../assets/recetasapp.jpeg'
 
 
 export const projectList = [
+    
+    {
+        name: 'AppRecetas',
+        image: Proj7,
+        skills: 'Tailwind CSS, MongoDB, Express, React Js, Node js,',
+        //DEMO
+        repositorio: 'https://github.com/porras20/RecetasAPP---client'
+    },
     {
         name: 'Clon de Youtube',
         image: Proj1,
